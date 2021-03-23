@@ -1,0 +1,1598 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Program_five"
+    android:background="@drawable/backcolor">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:elevation="5dp">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:text="Operator in python"
+                android:textColor="@color/black"
+                android:background="#FF5252"
+                android:padding="10sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/black"
+                    android:text="Operators are used to perform operations on variables and values.\nIn the example below, we use the + operator to add together two values:"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FF5252"
+                    android:textSize="20sp"
+                    android:layout_marginTop="10dp"
+                    android:text="Example"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:background="@color/black"
+                    android:textSize="20sp"
+                    android:padding="5dp"
+                    android:text="print(10 + 5)"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FF5252"
+                    android:textSize="20sp"
+                    android:layout_marginTop="10dp"
+                    android:text="Python divides the operators in the following groups:"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="5dp"
+                    android:textColor="@color/black"
+
+                    android:text="Arithmetic operators\nAssignment operators\nComparison operators\nLogical operators\nIdentity operators\nMembership operators\nBitwise operators"/>
+
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp">
+
+                    <TableRow
+                        android:background="@color/black">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Python Arithmetic Operators"
+                            android:layout_weight="4"
+                            android:background="#FF5252"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="@color/black">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Operator"
+                            android:layout_weight="4"
+                            android:background="#131313"
+                            android:textSize="20sp"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Name"
+                            android:layout_weight="4"
+                            android:background="#131313"
+                            android:textSize="20sp"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Example"
+                            android:layout_weight="4"
+                            android:background="#131313"
+                            android:textSize="20sp"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="@color/black">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="+"
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Addition"
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="X+Y"
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"
+                        />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="@color/black">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="-"
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Subtraction"
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="X-Y"
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="@color/black">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="*"
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Multiplication"
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="X*Y"
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="@color/black">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="/"
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Divison"
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="X/Y"
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="@color/black">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="%"
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Modulus"
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="X%Y"
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="@color/black">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="//"
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Floor Divison"
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="X//Y"
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="@color/black">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="**"
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Exponentiation"
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="X**Y"
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                    </TableRow>
+
+
+
+                </TableLayout>
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp">
+
+                    <TableRow
+                        android:background="@color/black">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Python Assignment Operators"
+                            android:layout_weight="4"
+                            android:background="#FF5252"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="@color/black">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Operator"
+                            android:layout_weight="4"
+                            android:background="#131313"
+                            android:textSize="20sp"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Example"
+                            android:layout_weight="4"
+                            android:background="#131313"
+                            android:textSize="20sp"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Same as"
+                            android:layout_weight="4"
+                            android:background="#131313"
+                            android:textSize="20sp"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="@color/black">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="=="
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="x=y"
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="X=Y"
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"
+                            />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="@color/black">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="+="
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="x += y"
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="X=x+Y"
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="@color/black">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="-="
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="x -= y"
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="X=x-Y"
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="@color/black">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="*="
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="x *= y"
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="X=x*Y"
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="@color/black">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="/="
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="x /= y"
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="X=x/Y"
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="@color/black">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="%="
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="x %= y"
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="X=x%Y"
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="@color/black">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="**="
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="x **= y"
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="X=x**Y"
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                    </TableRow>
+
+
+
+                </TableLayout>
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp">
+
+                    <TableRow
+                        android:background="@color/black">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Python Comaprison Operators"
+                            android:layout_weight="4"
+                            android:background="#FF5252"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#FF6E40">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Operator"
+                            android:layout_weight="4"
+                            android:background="#131313"
+                            android:textSize="20sp"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Name"
+                            android:layout_weight="4"
+                            android:background="#131313"
+                            android:textSize="20sp"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Example"
+                            android:layout_weight="4"
+                            android:background="#131313"
+                            android:textSize="20sp"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="@color/black">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="=="
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Equal"
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="X==Y"
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"
+                            />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="@color/black">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="!="
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Not equal"
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="X!=Y"
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="@color/black">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text=">"
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Greater than"
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="X>Y"
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="@color/black">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/less"
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Less than"
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/lessthan"
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="@color/black">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/greaterequalto"
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Greater equal to"
+                            android:layout_weight="5"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/xgreaterequaltoy"
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="@color/black">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/lessthanequal"
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Less equal to"
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/xlessthanequaltoy"
+                            android:layout_weight="4"
+                            android:background="#FF6E40"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                    </TableRow>
+
+
+
+
+
+                </TableLayout>
+
+
+
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp">
+
+                    <TableRow
+                        android:background="@color/black">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Python Logical Operators"
+                            android:layout_weight="4"
+                            android:background="#FF5252"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="@color/black">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Operator"
+                            android:layout_weight="4"
+                            android:background="#131313"
+                            android:textSize="20sp"
+                            android:textColor="#FF5252"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Description"
+                            android:layout_weight="5"
+                            android:background="#131313"
+                            android:textSize="20sp"
+                            android:textColor="#FF5252"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Example"
+                            android:layout_weight="4"
+                            android:background="#131313"
+                            android:textSize="20sp"
+                            android:textColor="#FF5252"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="@color/black">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="and"
+                            android:layout_weight="4"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Return true both statements are true"
+                            android:layout_weight="4"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/xlessthanfiveandten"
+                            android:layout_weight="4"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"
+                            />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="@color/black">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="or"
+                            android:layout_weight="4"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Return true if one of the statements is true"
+                            android:layout_weight="4"
+
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/xlessthanfiveorfour"
+                            android:layout_weight="4"
+
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="@color/black">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="not"
+                            android:layout_weight="4"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Reverse the result,returns false false if the result is true"
+                            android:layout_weight="4"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/notxlessthanfiveorten"
+                            android:layout_weight="4"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                    </TableRow>
+
+                </TableLayout>
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp">
+
+                    <TableRow
+                        android:background="@color/black">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Python Identity Operators"
+                            android:layout_weight="4"
+                            android:background="#FF5252"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="@color/black">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Operator"
+                            android:layout_weight="4"
+                            android:background="#131313"
+                            android:textSize="20sp"
+                            android:textColor="#FF5252"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Description"
+                            android:layout_weight="5"
+                            android:background="#131313"
+                            android:textSize="20sp"
+                            android:textColor="#FF5252"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Example"
+                            android:layout_weight="4"
+                            android:background="#131313"
+                            android:textSize="20sp"
+                            android:textColor="#FF5252"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="@color/black">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="is"
+                            android:layout_weight="4"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Return true both variables are the same object"
+                            android:layout_weight="4"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="x is y"
+                            android:layout_weight="4"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"
+                            />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="@color/black">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="is not"
+                            android:layout_weight="4"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Return true both variables are not the same object"
+                            android:layout_weight="4"
+
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="x is not y"
+                            android:layout_weight="4"
+
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                    </TableRow>
+
+
+
+                </TableLayout>
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp">
+
+                    <TableRow
+                        android:background="@color/black">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Python Membership Operators"
+                            android:layout_weight="4"
+                            android:background="#FF5252"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="@color/black">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Operator"
+                            android:layout_weight="4"
+                            android:background="#131313"
+                            android:textSize="20sp"
+                            android:textColor="#FF5252"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Description"
+                            android:layout_weight="5"
+                            android:background="#131313"
+                            android:textSize="20sp"
+                            android:textColor="#FF5252"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Example"
+                            android:layout_weight="4"
+                            android:background="#131313"
+                            android:textSize="20sp"
+                            android:textColor="#FF5252"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="@color/black">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="in"
+                            android:layout_weight="4"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Returns true if a sequence with the specified value is present in the object"
+                            android:layout_weight="4"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="x in y"
+                            android:layout_weight="4"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"
+                            />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="@color/black">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="not in"
+                            android:layout_weight="4"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Returns true if a sequence with the specified value is not present in the object"
+                            android:layout_weight="4"
+
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="x not in y"
+                            android:layout_weight="4"
+
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                    </TableRow>
+
+
+
+                </TableLayout>
+
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp">
+
+                    <TableRow
+                        android:background="@color/black">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Python Bitwise Operators"
+                            android:layout_weight="4"
+                            android:background="#FF5252"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="@color/black">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Operator"
+                            android:layout_weight="4"
+                            android:background="#131313"
+                            android:textSize="20sp"
+                            android:textColor="#FF5252"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Name"
+                            android:layout_weight="5"
+                            android:background="#131313"
+                            android:textSize="20sp"
+                            android:textColor="#FF5252"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Example"
+                            android:layout_weight="4"
+                            android:background="#131313"
+                            android:textSize="20sp"
+                            android:textColor="#FF5252"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="@color/black">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="&amp;"
+                            android:layout_weight="4"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="AND"
+                            android:layout_weight="4"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="x &amp; y"
+                            android:layout_weight="4"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"
+                            />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="@color/black">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="|"
+                            android:layout_weight="4"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="OR"
+                            android:layout_weight="4"
+
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="X|Y"
+                            android:layout_weight="4"
+
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="@color/black">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/shiftleft"
+                            android:layout_weight="4"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Shift Left"
+                            android:layout_weight="4"
+
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/xshiftlefty"
+                            android:layout_weight="4"
+
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="@color/black">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/shiftright"
+                            android:layout_weight="4"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Shift Right"
+                            android:layout_weight="4"
+
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/xshiftrighty"
+                            android:layout_weight="4"
+
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="@color/black">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="^"
+                            android:layout_weight="4"
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="x-OR"
+                            android:layout_weight="4"
+
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="X^Y"
+                            android:layout_weight="4"
+
+                            android:textColor="@color/white"
+                            android:gravity="center_horizontal"
+                            android:padding="10sp"/>
+
+                    </TableRow>
+
+
+
+
+
+
+                </TableLayout>
+
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

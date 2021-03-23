@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">PythonTutorial</string>
+    <string name="introduction">
+Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.
+It is used for:
+web development (server-side),
+software development,
+mathematics,
+system scripting.
+</string>
+    <string name="inroduction1">
+    </string>
+    <string name="inroduction2">
+      Python works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc).
+Python has a simple syntax similar to the English language.
+Python has syntax that allows developers to write programs with fewer lines than some other programming languages.
+Python runs on an interpreter system, meaning that code can be executed as soon as it is written. This means that prototyping can be very quick.
+Python can be treated in a procedural way, an object-oriented way or a functional way
+    </string>
+    <string name="helloworld"> print(\"Hello World\")</string>
+    <string name="varcode">x=55\ny=\'\'Sushil\'\'\nprint(x)\nprint(y)</string>
+    <string name="varname">A variable name must start with a letter or the underscore character.\nA variable name cannot start with a number\nA variable name can only contain alpha-numeric characters and underscores \n(A-z, 0-9, and _ )\nVariable names are case-sensitive (age, Age and AGE are three different variables)</string>
+    <string name="legalvar">myvar = \'\'Sushil\'\'\nmy_var = \'\'Sushil\'\'\n_my_var = \'\'Sushil\'\'\nmyVar = \'\'Sushil\'\'\nMYVAR = \'\'Sushil\'\'\nmyvar2 =\'\'Sushil\'\'</string>
+    <string name="less"><![CDATA[<]]></string>
+    <string name="lessthan"><![CDATA[X<Y]]></string>
+    <string name="lessthanqualy"><![CDATA[X <= Y]]></string>
+    <string name="lessfiveten"><![CDATA[X<5 and x<10]]></string>
+    <string name="lessor"><![CDATA[x < 5 or\n x < 4]]></string>
+    <string name="lessand"><![CDATA[not(x < 5 \nand x < 10)]]></string>
+    <string name="lessqual"><![CDATA[<=]]></string>
+    <string name="xlesswqualy"><![CDATA[X <= Y]]></string>
+    <string name="greaterequalto"><![CDATA[>=]]></string>
+    <string name="xgreaterequaltoy"><![CDATA[X>=Y]]></string>
+    <string name="lessthanequal"><![CDATA[<=]]></string>
+    <string name="xlessthanequaltoy"><![CDATA[X<=Y]]></string>
+    <string name="xlessthanfiveandten"><![CDATA[X<5 and x<10]]></string>
+    <string name="xlessthanfiveorfour"><![CDATA[X<5 or x<4]]></string>
+    <string name="notxlessthanfiveorten"><![CDATA[not(x<5 and x<10)]]></string>
+    <string name="shiftleft"><![CDATA[<<]]></string>
+    <string name="shiftright"><![CDATA[>>]]></string>
+    <string name="xshiftlefty"><![CDATA[X<<Y]]></string>
+    <string name="xshiftrighty"><![CDATA[X>>Y]]></string>
+</resources>
